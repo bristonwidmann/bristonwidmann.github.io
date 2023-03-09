@@ -1,0 +1,230 @@
+body {
+   font-family: sans-serif;
+}
+.head1{
+   text-align: center;
+   font-size: 40px;
+   width: fit-content;
+   padding: 15px;
+   border: 20px solid black;
+   background-color: green;
+   margin-top: 10px;
+   margin-left: 200px;
+}
+#head2{
+   color:rgb(255, 255, 255);
+   text-align: center;
+   background-color:rgba(159, 173, 82, 0.527) ;
+   margin-left: 200px;
+   margin-right: 200px;
+ }
+ #head3{
+   color:rgb(255, 255, 255);
+   text-align: center;
+   margin-left: 400px;
+   margin-right: 400px;
+   background-color: rgba(159, 173, 82, 0.527);
+ }
+ .introtxtr{
+   margin-left: 125px;
+   margin-right: 650px;
+   background-color:rgba(159, 173, 82, 0.527);
+ }
+
+.introtxtl {
+   margin-left: 125px;
+   margin-right: 650px;
+   text-align: left;
+   background-color: rgba(159, 173, 82, 0.527);
+}
+*{
+   background-color: rgb(220, 220, 220);
+}
+
+div.position{
+   position: absolute;
+   left: 150px;
+   right: 150px;
+   top: 40px;
+   bottom: 50px;
+}
+nav.sticky{
+   position:sticky;
+   top: 0:
+}
+a:hover{
+color: rgba(159, 173, 82, 0.527);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.example {
+   color: brown;
+  }
+   .container {
+      color:bisque
+   }
+   {
+      background-color: darkolivegreen;
+   }
+
+   div.container{
+      font-size: 25px;
+   }
+   div.container2{
+      font-size: 30px;
+   }
+   section a {
+      color: purple
+   }
+   div>a {
+      color: aquamarine
+   }
+   p {
+      font-size: 24px;
+   }
+   p {
+      font-size: 12px;
+  }
+  p {
+      font-size: 30px!important;
+  }
+  .green {
+      color: green;
+  }
+  #blue {
+      color:blue;
+  }
+  body {
+     font-family: courier;
+  }
+  div.pseudo:hover{
+   color: red;
+}
+a.pseudo2:hover{
+   color: rgb(23, 44, 23);
+}
+a.pseudo2:visited{
+   color:rgb(66, 142, 209);
+}
+a.pseudo:active{
+   color:rgb(63, 38, 120);
+}
+div{
+   background:rgb(23, 44, 23);
+   display: inline-block;
+}
+span {
+   background: pink;
+   display: block;
+   height: 50px;
+   width: 300px;
+}
+div.position {
+   background-color: rgb(60, 57, 57);
+   width: 73%;
+   border: 20px solid rgb(253, 190, 73);
+   padding: 50px;
+   margin: 20px 30px 20px 30px;
+   color: whitesmoke
+   }
+   div.position{
+   background-color:rgb(253, 190, 73);
+   color: whitesmoke;
+   margin: 20px 30px 20px 30px;
+}
