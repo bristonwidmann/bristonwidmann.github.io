@@ -1,7 +1,24 @@
 body {
    font-family: sans-serif;
 }
+h1{
+   font-size: 40px;
+   color:blue
+}
+h2{
+   text-align: center;
+   background-color: aqua;
+}
+h3{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(223, 145, 145)
+}
+h4{
+   font-size: 18px;
+   Color: rgb(117, 40, 117);
+}
 .head1{
+   color: white;
    text-align: center;
    font-size: 40px;
    width: fit-content;
@@ -26,12 +43,16 @@ body {
    background-color: rgba(159, 173, 82, 0.527);
  }
  .introtxtr{
+   color: white;
+   font-family: sans-serif;
    margin-left: 125px;
    margin-right: 650px;
    background-color:rgba(159, 173, 82, 0.527);
  }
 
 .introtxtl {
+   color: white;
+   font-family: sans-serif;
    margin-left: 125px;
    margin-right: 650px;
    text-align: left;
@@ -43,17 +64,45 @@ body {
 
 div.position{
    position: absolute;
-   left: 150px;
-   right: 150px;
-   top: 40px;
-   bottom: 50px;
+   top:0;
+   left: 600px;
 }
 nav.sticky{
    position:sticky;
-   top: 0:
+   top: 0;
 }
 a:hover{
 color: rgba(159, 173, 82, 0.527);
+}
+.container{
+font-family: 'Courier New', Courier, monospace;
+color:black;
+background-color: blueviolet;
+}
+#container2{
+font-family: 'Courier New', Courier, monospace;
+color: black;
+background-color: aquamarine;
+}
+div.container3{
+font-family: 'Courier New', Courier, monospace;
+color:black;
+background-color: rgb(34, 167, 22);
+}
+.animation{
+width: fit-content;
+padding: 15px;
+border: 20px solid black;
+margin-top: 10px;
+margin-left: 450px;
+animation-name: briston;
+animation-duration: 20s;
+}
+@keyframes briston {
+0%   {background-color: red;}
+25%  {background-color: yellow;}
+50%  {background-color: blue;}
+100% {background-color: green;}
 }
 
 
